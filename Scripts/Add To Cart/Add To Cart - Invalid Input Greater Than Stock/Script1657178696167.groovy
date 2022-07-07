@@ -35,7 +35,7 @@ Mobile.tap(findTestObject('Item/Number of Order/Button - Add'), 0)
 
 Mobile.tap(findTestObject('Item/Button - Cart'), 0)
 
-Mobile.verifyElementNotExist(findTestObject('Cart/With Item/Text - Item 1 Name'), 0)
+Mobile.verifyElementNotExist(findTestObject('Cart/With Item/Text - Item 1 Name'), 5)
 
 Mobile.closeApplication()
 
