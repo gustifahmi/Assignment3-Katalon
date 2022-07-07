@@ -29,13 +29,13 @@ Mobile.tap(findTestObject('Profile/Button - Edit Button'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Edit Profile/Text - Profile'), 0)
 
-Mobile.tap(findTestObject('Edit Profile/Field - Name'), 0)
+Mobile.tap(findTestObject('Edit Profile/Field - Email'), 0)
 
-Mobile.setText(findTestObject('Edit Profile/Input Name/Input - Name'), '', 0)
+Mobile.setText(findTestObject('Edit Profile/Input Email/Input - Email'), '', 0)
 
-Mobile.tap(findTestObject('Edit Profile/Input Name/Button - OK'), 0)
+Mobile.tap(findTestObject('Edit Profile/Input Email/Button - OK'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Edit Profile/Alert - Invalid Email Input'), 0)
+Mobile.verifyElementVisible(findTestObject('Edit Profile/Alert - Invalid Name Input'), 0)
 
 Mobile.closeApplication()
 
