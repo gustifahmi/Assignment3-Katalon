@@ -35,7 +35,7 @@ Mobile.setText(findTestObject('Edit Profile/Input Name/Input - Name'), '', 0)
 
 Mobile.tap(findTestObject('Edit Profile/Input Name/Button - OK'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Edit Profile/Alert - Invalid Email Input'), 0)
+Mobile.verifyElementVisible(findTestObject('Edit Profile/Alert - Invalid Name Input'), 0)
 
 Mobile.closeApplication()
 

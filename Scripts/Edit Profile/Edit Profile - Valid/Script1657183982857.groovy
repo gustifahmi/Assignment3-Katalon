@@ -29,13 +29,49 @@ Mobile.tap(findTestObject('Profile/Button - Edit Button'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Edit Profile/Text - Profile'), 0)
 
-Mobile.tap(findTestObject('Edit Profile/Field - Email'), 0)
+Mobile.tap(findTestObject('Edit Profile/Field - Name'), 0)
 
-Mobile.setText(findTestObject('Edit Profile/Input Email/Input - Email'), '', 0)
+Mobile.setText(findTestObject('Edit Profile/Input Name/Input - Name'), name, 0)
+
+Mobile.tap(findTestObject('Edit Profile/Input Name/Button - OK'), 0)
+
+Mobile.verifyElementNotVisible(findTestObject('Edit Profile/Alert - Invalid Name Input'), 3)
+
+Mobile.tap(findTestObject('Edit Profile/Field - Email'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Edit Profile/Input Email/Input - Email'), email, 0)
 
 Mobile.tap(findTestObject('Edit Profile/Input Email/Button - OK'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Edit Profile/Alert - Invalid Email Input'), 0)
+Mobile.verifyElementNotVisible(findTestObject('Edit Profile/Alert - Invalid Name Input'), 3)
+
+Mobile.tap(findTestObject('Edit Profile/Field - Phone Number'), 0)
+
+Mobile.setText(findTestObject('Edit Profile/Input Phone Number/Input - Phone number'), phone_number, 0)
+
+Mobile.tap(findTestObject('Edit Profile/Input Phone Number/Button - OK'), 0)
+
+Mobile.verifyElementNotVisible(findTestObject('Edit Profile/Alert - Invalid Phone Input'), 3)
+
+Mobile.tap(findTestObject('Edit Profile/Field - Address'), 0)
+
+Mobile.setText(findTestObject('Edit Profile/Input Address/Input - Address'), address, 0)
+
+Mobile.tap(findTestObject('Edit Profile/Input Address/Button - OK'), 0)
+
+Mobile.verifyElementNotVisible(findTestObject('Edit Profile/Alert - Invalid Address Input'), 3)
+
+Mobile.tap(findTestObject('Edit Profile/Button - Back'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Profile/Text - Name'), 0)
+
+Mobile.verifyElementText(findTestObject('Profile/Text - Name'), name)
+
+Mobile.verifyElementText(findTestObject('Profile/Text - Email'), email)
+
+Mobile.verifyElementText(findTestObject('Profile/Text - Phone Number'), phone_number)
+
+Mobile.verifyElementText(findTestObject('Profile/Text - Address'), address)
 
 Mobile.closeApplication()
 
