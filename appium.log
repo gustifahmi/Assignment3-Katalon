@@ -395,3 +395,7 @@
 [35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Invalid Name Input\").resourceId(\"com.solodroid.solomerce:id/snackbar_text\")"}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/55d5e1d8-83c7-4d8c-a928-7d998419dbc1/elements [39m[32m200[39m [90m60012 ms - 12[39m
 [35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/55d5e1d8-83c7-4d8c-a928-7d998419dbc1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'PROFILE' or . = 'PROFILE') and @resource-id = 'android:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/55d5e1d8-83c7-4d8c-a928-7d998419dbc1/elements [39m[32m200[39m [90m70 ms - 139[39m
+[35m[HTTP][39m [90m[39m
