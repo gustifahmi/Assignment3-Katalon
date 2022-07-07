@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\095059\\Documents\\BTDP-Katalon\\Assignment3\\apk\\ECommerce -SAMPLE-Android.apk', false)
+Mobile.startApplication('C:\\Users\\095059\\Documents\\BTDP-Katalon\\Assignment3\\apk\\ECommerce -SAMPLE-Android.apk', true)
 
 Mobile.waitForElementPresent(findTestObject('Recent/Item 1 (Smartphone) Image'), 0)
 
@@ -29,13 +29,13 @@ Mobile.tap(findTestObject('Item/Button - Add To Cart'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Item/Number of Order/Input - Number Of Order'), 0)
 
-Mobile.setText(findTestObject('Item/Number of Order/Input - Number Of Order'), '0', 0)
+Mobile.setText(findTestObject('Item/Number of Order/Input - Number Of Order'), '12', 0)
 
 Mobile.tap(findTestObject('Item/Number of Order/Button - Add'), 0)
 
 Mobile.tap(findTestObject('Item/Button - Cart'), 0)
 
-Mobile.verifyElementExist(findTestObject('Cart/Button - Continue Shopping'), 0)
+Mobile.verifyElementNotExist(findTestObject('Cart/With Item/Text - Item 1 Name'), 0)
 
 Mobile.closeApplication()
 

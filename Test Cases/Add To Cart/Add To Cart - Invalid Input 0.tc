@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add To Cart - Input 0</name>
+   <name>Add To Cart - Invalid Input 0</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bd94d000-54c1-420b-9148-ca98ad33968d</testCaseGuid>
