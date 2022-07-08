@@ -29,5 +29,15 @@ Mobile.tap(findTestObject('Category/Category - Office and Industry'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Office and Industry/Text - Office and Industry'), 0)
 
+Mobile.verifyElementVisible(findTestObject('Category/Office and Industry/Image - Item 1'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Office and Industry/Image - Item 2'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Office and Industry/Image - Item 3'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Office and Industry/Image - Item 4'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Office and Industry/Image - Item 5'), 0)
+
 Mobile.closeApplication()
 

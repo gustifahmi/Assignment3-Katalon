@@ -29,5 +29,15 @@ Mobile.tap(findTestObject('Category/Category - Home and Furniture'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/Text - Home and Furniture'), 0)
 
+Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/Image - Item 1'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/Image - Item 2'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/Image - Item 3'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/Image - Item 4'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/Image - Item 5'), 0)
+
 Mobile.closeApplication()
 

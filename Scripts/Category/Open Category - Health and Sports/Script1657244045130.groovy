@@ -29,5 +29,15 @@ Mobile.tap(findTestObject('Category/Category - Health and Sports'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Health and Sports/Text - Health and Sports'), 0)
 
+Mobile.verifyElementVisible(findTestObject('Category/Health and Sports/Image - Item 1'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Health and Sports/Image - Item 2'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Health and Sports/Image - Item 3'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Health and Sports/Image - Item 4'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Health and Sports/Image - Item 5'), 0)
+
 Mobile.closeApplication()
 

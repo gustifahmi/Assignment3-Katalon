@@ -29,5 +29,15 @@ Mobile.tap(findTestObject('Category/Category - Electronics and Gadgets'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Electronics and Gadgets/Text - Electronics and Gadgets'), 0)
 
+Mobile.verifyElementVisible(findTestObject('Category/Electronics and Gadgets/Image - Item 1'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Electronics and Gadgets/Image - Item 2'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Electronics and Gadgets/Image - Item 3'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Electronics and Gadgets/Image - Item 4'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Electronics and Gadgets/Image - Item 5'), 0)
+
 Mobile.closeApplication()
 

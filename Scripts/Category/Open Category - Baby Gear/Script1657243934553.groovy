@@ -29,5 +29,15 @@ Mobile.tap(findTestObject('Category/Category - Baby Gear'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Text - Baby Gear'), 0)
 
+Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Image - Item 1'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Image - Item 2'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Image - Item 3'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Image - Item 4'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Image - Item 5'), 0)
+
 Mobile.closeApplication()
 
