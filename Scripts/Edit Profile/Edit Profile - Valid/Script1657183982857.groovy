@@ -43,7 +43,7 @@ Mobile.setText(findTestObject('Edit Profile/Input Email/Input - Email'), email, 
 
 Mobile.tap(findTestObject('Edit Profile/Input Email/Button - OK'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('Edit Profile/Alert - Invalid Name Input'), 3)
+Mobile.verifyElementNotVisible(findTestObject('Edit Profile/Alert - Invalid Email Input'), 3)
 
 Mobile.tap(findTestObject('Edit Profile/Field - Phone Number'), 0)
 
