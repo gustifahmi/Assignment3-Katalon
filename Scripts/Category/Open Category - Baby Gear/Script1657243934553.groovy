@@ -39,5 +39,27 @@ Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Image - Item 4'),
 
 Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Image - Item 5'), 0)
 
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 1 Name'), 'Hybrid Stroller Cabi Sport Rosse Gold ')
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 1 Price'), '380 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 2 Name'), 'Bib Slabber Waterproof')
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 2 Price'), '8 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 3 Name'), 'Portable Bottle Heater')
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 3 Price'), '8 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 4 Name'), 'GEA Baby RayQueen Plus JHS-400 UV Sterilizer - Metal White')
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 4 Price'), '220 USD')
+
+Mobile.scrollToText('Animal Jumpsuit for Newborn Baby', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 5 Name'), 'Animal Jumpsuit for Newborn Baby')
+
+Mobile.verifyElementText(findTestObject('Category/Baby Gear/Text - Item 5 Price'), '10 USD')
+
 Mobile.closeApplication()
 
