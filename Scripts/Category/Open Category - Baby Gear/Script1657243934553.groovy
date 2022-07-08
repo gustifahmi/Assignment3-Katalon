@@ -23,11 +23,11 @@ Mobile.waitForElementPresent(findTestObject('Recent/Button - Category'), 0)
 
 Mobile.tap(findTestObject('Recent/Button - Category'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Category/Text - Category'), 0)
+Mobile.waitForElementPresent(findTestObject('Category/Category - Baby Gear'), 0)
 
 Mobile.tap(findTestObject('Category/Category - Baby Gear'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Text - Baby Gear'), 0)
+Mobile.waitForElementPresent(findTestObject('Category/Baby Gear/Text - Baby Gear'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Baby Gear/Image - Item 1'), 0)
 

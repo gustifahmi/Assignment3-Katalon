@@ -23,11 +23,11 @@ Mobile.waitForElementPresent(findTestObject('Recent/Button - Category'), 0)
 
 Mobile.tap(findTestObject('Recent/Button - Category'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Category/Text - Category'), 0)
+Mobile.waitForElementPresent(findTestObject('Category/Category - Home and Furniture'), 0)
 
 Mobile.tap(findTestObject('Category/Category - Home and Furniture'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/Text - Home and Furniture'), 0)
+Mobile.waitForElementPresent(findTestObject('Category/Home and Furniture/Image - Item 1'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Category/Home and Furniture/Image - Item 1'), 0)
 
