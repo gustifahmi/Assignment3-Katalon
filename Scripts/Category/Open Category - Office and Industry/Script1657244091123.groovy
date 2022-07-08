@@ -39,5 +39,27 @@ Mobile.verifyElementVisible(findTestObject('Category/Office and Industry/Image -
 
 Mobile.verifyElementVisible(findTestObject('Category/Office and Industry/Image - Item 5'), 0)
 
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 1 Name'), 'Winsor & Newton Designers Gouache - Introductory Set')
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 1 Price'), '45 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 2 Name'), 'Money Counter Kozure MC-101')
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 2 Price'), '150 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 3 Name'), 'Scientific Calculator - Doraemon 350 MS')
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 3 Price'), '12 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 4 Name'), 'ID Card holder / Name Tag Holder / Tempat ID Card - UHOO 6616')
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 4 Price'), '5 USD')
+
+Mobile.scrollToText('Pena Pilot Frixion Cliker 0.5mm - Blue', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 5 Name'), 'Pena Pilot Frixion Cliker 0.5mm - Blue')
+
+Mobile.verifyElementText(findTestObject('Category/Office and Industry/Text - Item 5 Price'), '20 USD')
+
 Mobile.closeApplication()
 
