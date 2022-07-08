@@ -16,20 +16,20 @@ Tes yang dilakukan pada assignment isi antara lain:
 1. Add To Cart
    Untuk semua test case, barang yang digunakan sama, yaitu Samsung Galaxy S10 - Black yang ada di halaman Recent.
    1) Invalid Input 0
-      Input 0 di number of order
+      Input 0 di number of order  
       Verify:
       - Verify Element Not Exist, Object: Text - Item 1 Name (artinya di dalam cart tidak ada barang tersebut)
    2) Invalid Input Greater Than Stock
-      Input di number of order lebih dari stock (stock ada 5, yang saya masukkan sebagai input adalah 12)
+      Input di number of order lebih dari stock (stock ada 5, yang saya masukkan sebagai input adalah 12)  
       Verify:
       - Verify Element Not Exist, Object: Text - Item 1 Name (artinya di dalam cart tidak ada barang tersebut)
    3) Valid
-      Input di number order lebih kecil dari jumlah stock (saya masukkan 1 saja)
+      Input di number order lebih kecil dari jumlah stock (saya masukkan 1 saja)  
       Verify:
       - Verify Element Exist, Object: Text - Item 1 Name (artinya di dalam cart tidak ada barang tersebut)
 
 2. Category
-   Membuka halaman Category dan terdapat 5 barang di setiap category, selanjutnya memeriksa 5 gambar tersebut ada, lalu menyocokkan nama dan harga dari masing-masing barang tersebut. Secara garis besar untuk semua test case, yang diverifikasi sama, namun untuk verify element text beda di inputnya, disesuaikan dengan nama dan harga masing-masing barang. Verifikasinya adalah sebagai berikut:
+   Membuka halaman Category dan terdapat 5 barang di setiap category, selanjutnya memeriksa 5 gambar tersebut ada, lalu menyocokkan nama dan harga dari masing-masing barang tersebut. Secara garis besar untuk semua test case, yang diverifikasi sama, namun untuk verify element text beda di inputnya, disesuaikan dengan nama dan harga masing-masing barang. Verifikasinya adalah sebagai berikut:  
    Verify:
    - Verify Element Visible, Object: Image - Item 1
    - Verify Element Visible, Object: Image - Item 2
@@ -59,34 +59,34 @@ Tes yang dilakukan pada assignment isi antara lain:
 3. Edit Profile
    Terdapat 5 test case pada edit profile, yaitu:
    1) Empty Address
-      Mengosongkan Address
+      Mengosongkan Address  
       Verify:
       - Verify Element Visible, Object: Alert - Invalid Address Input
    2) Empty Email
-      Mengosongkan Email
+      Mengosongkan Email  
       Verify:
       - Verify Element Visible, Object: Alert - Invalid Email Input
    3) Empty Name
-      Mengosongkan Name
+      Mengosongkan Name  
       Verify:
       - Verify Element Visible, Object: Alert - Invalid Name Input
    4) Empty Phone Number
-      Mengosongkan Phone Number
+      Mengosongkan Phone Number  
       Verify:
       - Verify Element Visible, Object: Alert - Invalid Phone Input
    5) Valid
-      Mengubah semua isian dan memastikkan datanya tersimpan. Input-nya saya masukkan di variable adalah sebagai berikut:
-      name: John Doe
-      email: example@gmail.com
-      phone_number: +6289911223344
-      address: Jalan Sudirman
+      Mengubah semua isian dan memastikkan datanya tersimpan. Input-nya saya masukkan di variable adalah sebagai berikut:  
+      name: John Doe  
+      email: example@gmail.com  
+      phone_number: +6289911223344  
+      address: Jalan Sudirman  
 
-      Lalu verifikasinya adalah sebagai berikut
+      Lalu verifikasinya adalah sebagai berikut  
       Verify:
       - Verify Element Not Visible, Object: Alert - Invalid Name Input
       - Verify Element Not Visible, Object: Alert - Invalid Email Input
       - Verify Element Not Visible, Object: Alert - Invalid Phone Input
-      - Verify Element Not Visible, Object: Alert - Invalid Address Input
+      - Verify Element Not Visible, Object: Alert - Invalid Address Input  
       Lalu, back ke halaman sebelumnya untuk melihat data yang tersimpan
       - Verify Element Text, Object: Text - Name, Input: name
       - Verify Element Text, Object: Text - Email, Input: email
