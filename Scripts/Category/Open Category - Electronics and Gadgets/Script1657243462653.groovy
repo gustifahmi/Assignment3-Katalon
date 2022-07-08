@@ -39,5 +39,27 @@ Mobile.verifyElementVisible(findTestObject('Category/Electronics and Gadgets/Ima
 
 Mobile.verifyElementVisible(findTestObject('Category/Electronics and Gadgets/Image - Item 5'), 0)
 
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 1 Name'), 'Samsung Galaxy S10 - Black')
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 1 Price'), '899 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 2 Name'), 'U17 USB Portable M3 HUmidifier Air Purifier LED Night Light 200ML')
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 2 Price'), '20 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 3 Name'), 'Apple watch series 3 GPS 42mm Black')
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 3 Price'), '400 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 4 Name'), 'Mini Digital Speaker TD-V26 USB FM Radio SD TF Card MP3 - Red')
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 4 Price'), '19 USD')
+
+Mobile.scrollToText('LED TV 43 Inch Smart TV TCL 43E3 UHD 4K Dolby Sound', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 5 Name'), 'LED TV 43 Inch Smart TV TCL 43E3 UHD 4K Dolby Sound')
+
+Mobile.verifyElementText(findTestObject('Category/Electronics and Gadgets/Text - Item 5 Price'), '375 USD')
+
 Mobile.closeApplication()
 
