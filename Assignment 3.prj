@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Mobile</name>
+   <name>Assignment 3</name>
    <tag></tag>
    <UUID>254b66b1-e6d8-425d-a228-5b7fb214b453</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\095059\Documents\BTDP-Katalon\Assignment3\Mobile.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\095059\Documents\BTDP-Katalon\Assignment3\Assignment 3.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
