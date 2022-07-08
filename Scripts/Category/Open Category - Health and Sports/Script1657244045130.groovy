@@ -39,5 +39,27 @@ Mobile.verifyElementVisible(findTestObject('Category/Health and Sports/Image - I
 
 Mobile.verifyElementVisible(findTestObject('Category/Health and Sports/Image - Item 5'), 0)
 
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 1 Name'), 'Electric Treadmill TL 650')
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 1 Price'), '480 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 2 Name'), 'Nike Magista Obra II Club TF')
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 2 Price'), '42 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 3 Name'), 'Digital Tensimeter HL-168')
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 3 Price'), '24 USD')
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 4 Name'), 'Dolphin Infrared Massager')
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 4 Price'), '8 USD')
+
+Mobile.scrollToText('Ear Thermometer infrared', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 5 Name'), 'Ear Thermometer infrared')
+
+Mobile.verifyElementText(findTestObject('Category/Health and Sports/Text - Item 5 Price'), '14 USD')
+
 Mobile.closeApplication()
 
